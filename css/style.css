@@ -1,0 +1,162 @@
+body {
+	background-color: #110f0b;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	font-size: 16px;
+  color: #ffffb3;
+  padding: 0px;
+  margin: 0px;  
+}
+
+table td {
+	padding-right: 10px;
+	padding-bottom: 2px;
+}
+
+textarea {
+	height: 100px;
+}
+
+img {
+	border: 0 none;
+}
+
+a:active 	{ text-decoration: none; color: #ffffb3; }
+a:link 		{ text-decoration: underline; color: #d3bc87; }
+a:visited { text-decoration: underline; color: #d3bc87; }
+a:hover 	{ text-decoration: none; color: #B08B37; }
+
+
+.puzzle {
+  position: relative;
+  background: url('../img/puzzle.png') no-repeat;
+ 	width: 1000px;
+  height: 1600px;
+  padding: 0px;
+  margin: 0px;
+}
+
+.main {
+  position: relative;
+  left: 170px;
+  top: 320px;
+  width: 650px;
+/*  height: 958px; */
+  height: 1200px;
+  padding: 30px;
+}
+
+.menu {
+	position: absolute;
+	overflow: visible;
+	left: -170px;
+	top: -94px;
+}
+
+.menu1 {
+	position: absolute;
+	left: -65px;
+	top: -74px;
+	width: 105px;
+	height: 60px;
+}
+
+.menu2 {
+	position: absolute;
+	left: 40px;
+	top: -74px;
+	width: 155px;
+	height: 60px;
+}
+
+.menu3 {
+	position: absolute;
+	left: 195px;
+	top: -74px;
+	width: 105px;
+	height: 60px;
+}
+
+.menu4 {
+	position: absolute;
+	left: 300px;
+	top: -74px;
+	width: 155px;
+	height: 60px;
+}
+
+.menu5 {
+	position: absolute;
+	left: 455px;
+	top: -74px;
+	width: 155px;
+	height: 60px;
+}
+
+.a_menu {
+  display: block;
+  width:100%;
+  height:100%;
+  text-decoration:none;
+}
+
+.a_menu:hover {
+	color: #110f0b;
+}
+
+.uvod {
+	position: absolute;
+	left: -81px;
+	top: -94px;
+  width: 122px;
+	height: 94px;
+}
+
+.informace {
+	position: absolute;
+	left: 22px;
+	top: -94px;
+  width: 188px;
+	height: 93px;
+}
+
+.tym {
+	position: absolute;
+	left: 193px;
+	top: -94px;
+  width: 122px;
+	height: 94px;
+}
+
+.prihlaska {
+	position: absolute;
+	left: 297px;
+	top: -95px;
+  width: 174px;
+	height: 94px;
+}
+
+.kontakty {
+	position: absolute;
+	left: 452px;
+	top: -95px;
+  width: 163px;
+	height: 94px;
+}
+
+.dotaznik {
+	width: 200px;
+}
+
+.comment {
+	font-style: italic;
+	font-size: 14px;
+}
+
+.ome {
+	position: absolute;
+	left: 370px;
+  top: 190px;
+  width: 320px;
+  height: 958px;
+  text-align: justify;
+}
